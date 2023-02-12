@@ -8,6 +8,14 @@
         <button id="new"> Mới nhất </button>
         <button id="hot"> Bán chạy </button>
         <button id="price"> Giá </button>
+        <div>
+          <input class="input-search" placeholder="Search in there" type="text">
+        </div>
+        <div class="icon">
+        <button mat-icon-button aria-label="Example icon-button with search icon">
+          <mat-icon>search</mat-icon>
+        </button>
+      </div>
   </div>
   <div  class="list-card" >
     <mat-card *ngFor="let i of news" class="example-card">
